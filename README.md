@@ -3,25 +3,25 @@ This Repository provides examples on how to use Phrase in general and the integr
 
 # What we want to achieve
 - You will run a simple app on your machine
-- You will learn how to internationalize the app
+- You will learn how to internationalize that app
 - You will learn how to integrate Phrase
 
 # [System setup and first steps](https://vimeo.com/352687293/3ea2ac3a1a)
-## Installation of necesary tools
+## Installation of necessary tools
 - [Sublime - Texteditor](https://www.sublimetext.com/)
 - [Homebrew - Packagemanager for Linux/MacOs](https://brew.sh/)
-- Install git with homebrew with -> `$brew install git`
-- Install gpg with homebrew with -> `$brew install gpg`
+- Install git with homebrew by running -> `$brew install git`
+- Install gpg with homebrew by running -> `$brew install gpg`
 - [RVM -Ruby Version manager](https://rvm.io/)
-  - If you run into problems with installing rvm espaicially with the
+  - If you run into problems with installing rvm especially with the
     GPG Keys, please follow the security instructions on the rvm page
-- Install the right Ruby version with rvm with ->` $rvm install 2.4.1`
+- Install the correct Ruby version with rvm by running ->` $rvm install 2.4.1`
 
 
 # Run the Application on your machine
 
 ## Get the Source code
-1. Create a folder in the Terminal on your Desktop
+1. Create a folder via the Terminal on your Desktop
     * ` $cd Desktop`
     * `$mkdir phrase_playground`
 
@@ -31,8 +31,8 @@ This Repository provides examples on how to use Phrase in general and the integr
 3. Clone the Lunchroulette Repo from Github
     * `$git clone https://github.com/docstun/lunchroulette.git`
 
-## Get the Webapp up and running
-### Setup the enviromente for the App
+## Get the Web Application up and running
+### Set up the environment for the App
 
 1. Install Bundler -> Dependency Manger for Ruby on Rails
     * `$gem install bundler`
@@ -45,21 +45,23 @@ This Repository provides examples on how to use Phrase in general and the integr
     * `$rails db:setup`
 
 2. Start the Server
-    * `rails server`
+    * `$rails server`
 
 3. [Open App in your browser](http://localhost:3000)
 
 
-# Short indroduction to the Ruby on Rails enviromente
+# Short indroduction to the Ruby on Rails environment
 > For a short introduction to the Ruby on Rails structure, please view the
-> short [video](https://vimeo.com/352687324/fc6c93f613) we provided.
+> short [video](https://vimeo.com/352687324/fc6c93f6130) we provided.
+
 > [For a deeper introduction of Ruby on Rails structure we suggested
 this video](https://gorails.com/episodes/rails-application-structure)
 
 
 # Localizing the App
-> [Introduction to i18n](https://vimeo.com/352687255/d5140e06cd)
-##[Implement I18n into your
+## [Introduction to i18n](https://vimeo.com/352687255/d5140e06cd)
+
+## [Implement I18n into your
 codebase](https://vimeo.com/352687255/d5140e06cd)
 1. Add basic configuration to your `./app/controllers/application_controller.rb`
     ![application controler
@@ -70,21 +72,21 @@ implementation](https://github.com/Khaleesicodes/github_students_package/blob/ma
 languages](https://github.com/Khaleesicodes/github_students_package/blob/master/assets/language.png)
 
 
-# Connecting the project to phraseapp
+# Connecting the project to Phrase
 ## Install the Phrase CLI
-  Run the following commands in your terminal
+  Run the following commands in your Terminal
   1. `$brew tap phrase/brewed`
   2. `$brew install phraseapp`
 
 ## Phrase CLI Setup
-  Run the following commands in your terminal
-  1. `phraseapp init`
-  2. Then you will be ask to provide an access token, which  you can
-     create in the Phrase UI and copy paste it to your terminal
-  3. Follow further instrudctions to setup a new project or choose an
+  Run the following commands in your Terminal
+  1. `$phraseapp init`
+  2. You will then be asked to provide an access token, which  you can
+     create in the Phrase UI and copy/paste it into your Terminal
+  3. Follow further instructions to setup a new project or choose an
      already existing project.
   4. When you get asked for the path just press enter, in our case the
-     CLI already got the right path.
+     CLI already has got the right path.
   5. All done?! Run your first `$phraseapp push`
   6. Play around in the Phrase UI and get all the changes with
      `$phraseapp pull`
