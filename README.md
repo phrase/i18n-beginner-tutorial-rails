@@ -1,13 +1,13 @@
 # Getting started with Phrase and Github - Ruby on Rails example
-This Repository provides examples on how to use phraseapp in general and the integration with github.
+This Repository provides examples on how to use Phrase in general and the integration with github.
 
 # What we want to achieve
 - You will run a simple app on your machine
 - You will learn how to internationalize the app
-- You will learn how to integrate PhraseApp
+- You will learn how to integrate Phrase
 
-# System setup and first steps
-## Installation of necesaary tools
+# [System setup and first steps](https://vimeo.com/352687293/3ea2ac3a1a)
+## Installation of necesary tools
 - [Sublime - Texteditor](https://www.sublimetext.com/)
 - [Homebrew - Packagemanager for Linux/MacOs](https://brew.sh/)
 - Install git with homebrew with -> `$brew install git`
@@ -52,13 +52,15 @@ This Repository provides examples on how to use phraseapp in general and the int
 
 # Short indroduction to the Ruby on Rails enviromente
 > For a short introduction to the Ruby on Rails structure, please view the
-> short video we provided.
+> short [video](https://vimeo.com/352687324/fc6c93f613) we provided.
 > [For a deeper introduction of Ruby on Rails structure we suggested
 this video](https://gorails.com/episodes/rails-application-structure)
 
 
 # Localizing the App
-## Implement I18n into your codebase
+> [Introduction to i18n](https://vimeo.com/352687255/d5140e06cd)
+##[Implement I18n into your
+codebase](https://vimeo.com/352687255/d5140e06cd)
 1. Add basic configuration to your `./app/controllers/application_controller.rb`
     ![application controler
 implementation](https://github.com/Khaleesicodes/github_students_package/blob/master/assets/carbon.png)
