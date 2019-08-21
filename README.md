@@ -21,6 +21,8 @@ This Repository provides examples on how to use Phrase in general and the integr
 # Run the Application on your machine
 
 ## Get the Source code
+> We will use this [Github Repository](https://github.com/docstun/lunchroulette) as an example
+
 1. Create a folder via the Terminal on your Desktop
     * ` $cd Desktop`
     * `$mkdir phrase_playground`
