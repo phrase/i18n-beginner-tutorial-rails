@@ -65,12 +65,12 @@ this video](https://gorails.com/episodes/rails-application-structure)
 
 ## [Implement I18n into your codebase](https://vimeo.com/352687255/d5140e06cd)
 1. Add basic configuration to your `./app/controllers/application_controller.rb`
-    ![application controler
-implementation](https://github.com/Khaleesicodes/github_students_package/blob/master/assets/carbon.png)
+    ![application
+controller](https://github.com/phrase/i18n-beginner-tutorial-rails/blob/master/assets/carbon.png)
 
 2. Set the languages in your `./config/initializers/locale.rb`
     ![setting
-languages](https://github.com/Khaleesicodes/github_students_package/blob/master/assets/language.png)
+languages](https://github.com/phrase/i18n-beginner-tutorial-rails/blob/master/assets/language.png)
 
 
 # Connecting the project to Phrase
