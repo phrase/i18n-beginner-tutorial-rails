@@ -6,7 +6,7 @@ This Repository provides examples on how to use Phrase in general and the integr
 - You will learn how to internationalize that app
 - You will learn how to integrate Phrase
 
-# [System setup and first steps](https://vimeo.com/352687293/3ea2ac3a1a)
+# [System setup and first steps](https://www.youtube.com/watch?v=GOSpulJgoPU)
 ## Installation of necessary tools
 - [Sublime - Texteditor](https://www.sublimetext.com/)
 - [Homebrew - Packagemanager for Linux/MacOs](https://brew.sh/)
@@ -61,7 +61,7 @@ this video](https://gorails.com/episodes/rails-application-structure)
 
 
 # Localizing the App
-## [Introduction to i18n](https://vimeo.com/352687255/d5140e06cd)
+## [Introduction to i18n](https://www.youtube.com/watch?v=7dAZ0kXLGmI)
 
 ## [Implement I18n into your codebase](https://vimeo.com/352687282/5952575eb4)
 1. Add basic configuration to your `./app/controllers/application_controller.rb`
